@@ -1,0 +1,23 @@
+body {
+  padding: 0;
+  margin: 0;
+  max-width: 100vw;
+  max-height: 100vh;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+}
+
+.assignment-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro h1,
+h2 {
+  text-align: center;
+  background-color: gray;
+}
