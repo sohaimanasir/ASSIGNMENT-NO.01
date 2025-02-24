@@ -29,3 +29,17 @@ function maxNum() {
 console.log(maxNum());
 
 //  a program to check if a given string is a palindrome using loops and function
+
+let a = "civic";
+function isPlaindrome() {
+  str = a;
+  b = str.length;
+  for (i = 0; i < Math.floor(b / 2); i++) {
+    if (str[i] === str[b - i - 1]) {
+      console.log("its a palindrome");
+    } else {
+      console.log("not a palindrome");
+    }
+  }
+}
+isPlaindrome();
